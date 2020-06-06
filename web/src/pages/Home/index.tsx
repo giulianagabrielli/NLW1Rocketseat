@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiLogIn } from 'react-icons/fi';
+import { FiLogIn } from 'react-icons/fi'; //npm install react-icons
 import { Link } from 'react-router-dom';
 
 import './styles.css';

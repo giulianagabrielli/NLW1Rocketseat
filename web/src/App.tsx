@@ -1,4 +1,5 @@
-//para instalar e executar o react --> npx create-react-app web --template=typescript
+//para instalar e executar o react --> npx create-react-app web --template=typescript 
+//npm install -D @types/react
 //para executar em localhost:3000 --> npm start
 //JSX --> possibilidade de escrever html dentro do JS
 //Estado --> informações mantidas pelos componentes

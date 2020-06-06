@@ -2,6 +2,7 @@ import express from 'express'; //npm init -y (-y para definir tudo default) e de
 import routes from './routes';
 import path from 'path';
 import cors from 'cors'; //instalação --> npm install cors e npm install @types/cors -D
+import { errors } from 'celebrate';
 
 const app = express();
 
@@ -10,5 +11,7 @@ app.use(cors()); //assim, vai permitir que todas as urls acessem a API, depois p
 app.use(routes);
 
 app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads' )))
+
+app.use(errors());
 
 app.listen(3333) 
