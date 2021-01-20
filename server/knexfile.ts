@@ -3,7 +3,7 @@
 //comando --> npx knex migrate:latest --knexfile knexfile.ts 
 //dica --> command shift p, sqlite 
 //em package.json, foi criado um comando para evitar a linha toda da migration --> npm run knex:migrate
-
+//ver ts-node-dev e ts-node.npm install -D typescript,  npm install -D ts-node, npm i ts-node-dev --save-dev, tsc --init
 import path from 'path';
 
 
